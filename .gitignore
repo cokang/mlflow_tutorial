@@ -1,0 +1,155 @@
+New chat
+Today
+Gitignore for ML Project Files
+30 Days
+Understanding uvx pre-commit install command
+Generating YAML File Examples and Rules
+2025-07
+Viewing Git History and Transactions Guide
+Regular Git Commits: A Step-by-Step Guide
+2025-06
+Uninstall Conda Package Guide
+Register Conda Environment as Jupyter Kernel
+Check NumPy Version in Python
+View Conda Environments and Commands
+Keras image_dataset_from_directory usage guide
+Entropy in Machine Learning with Python
+2025-05
+Sharing Conda Environment with Others
+Understanding GitLab CI/CD Pipeline Management
+Importance of CI/CD in Software Development
+Using Gensim LDA for Topic Modeling
+Perperangan Nabi Muhammad SAW di Ramadan
+2025-03
+what does .map do in a dataframe
+Basic PageRank Calculation for Node C
+Copying DataFrames in pandas methods
+2025-02
+disocnected graph in data scienc
+skip first line python read file
+2025-01
+Normalized Similarity Score Calculation Method
+Scikit-learn Accuracy Score Example Explanation
+SVM Implementation Example in Python
+Tokenize and POS Tag with NLTK
+Python itertools tee function example
+Get App
+
+Gitignore for ML Project Files
+gitignore content for ml project
+Here's a comprehensive .gitignore file for a typical machine learning project:
+
+text
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Data files
+*.csv
+*.json
+*.pickle
+*.pkl
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.parquet
+*.feather
+*.db
+*.sqlite
+*.data
+*.dat
+
+# Model files
+*.model
+*.joblib
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.onnx
+
+# Logs and outputs
+logs/
+*.log
+mlruns/
+output/
+results/
+predictions/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*~
